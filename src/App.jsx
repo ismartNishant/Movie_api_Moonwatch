@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MovieCard from "./Components/Movies/MovieCard";
 import About from "./Components/About/About";
 import React from "react";
-const APIURL = "http://www.omdbapi.com/?i=tt3896198&apikey=3c7bea22";
+const APIURL = "https://www.omdbapi.com/?i=tt3896198&apikey=3c7bea22";
 
 function App() {
   const [movies, setMovies] = useState([]);
